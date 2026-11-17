@@ -1,0 +1,251 @@
+{
+  "model": "DeepAR",
+  "target": "sigma_phi_proxy",
+  "input_variables": [
+    "sigma_phi_proxy"
+  ],
+  "lookback_steps": 60,
+  "horizon_steps": 20,
+  "sampling_seconds": 30,
+  "training_seconds": 7660.577105099999,
+  "epochs": 10,
+  "series_count": 26,
+  "series": [
+    {
+      "item_id": "IISC00IND__I01",
+      "station": "IISC00IND",
+      "sv": "I01",
+      "n_original": 469106,
+      "n_reindexed_train": 1619857,
+      "n_valid_train_targets": 398740,
+      "cutoff_time": "2023-09-14T10:51:00"
+    },
+    {
+      "item_id": "IISC00IND__I02",
+      "station": "IISC00IND",
+      "sv": "I02",
+      "n_original": 478213,
+      "n_reindexed_train": 1618511,
+      "n_valid_train_targets": 406481,
+      "cutoff_time": "2023-09-13T23:38:00"
+    },
+    {
+      "item_id": "IISC00IND__I03",
+      "station": "IISC00IND",
+      "sv": "I03",
+      "n_original": 478253,
+      "n_reindexed_train": 1618552,
+      "n_valid_train_targets": 406515,
+      "cutoff_time": "2023-09-13T23:58:30"
+    },
+    {
+      "item_id": "IISC00IND__I04",
+      "station": "IISC00IND",
+      "sv": "I04",
+      "n_original": 280225,
+      "n_reindexed_train": 1055048,
+      "n_valid_train_targets": 238191,
+      "cutoff_time": "2023-03-02T08:06:30"
+    },
+    {
+      "item_id": "IISC00IND__I05",
+      "station": "IISC00IND",
+      "sv": "I05",
+      "n_original": 424139,
+      "n_reindexed_train": 1590736,
+      "n_valid_train_targets": 360518,
+      "cutoff_time": "2023-09-04T08:10:30"
+    },
+    {
+      "item_id": "IISC00IND__I06",
+      "station": "IISC00IND",
+      "sv": "I06",
+      "n_original": 478113,
+      "n_reindexed_train": 1618578,
+      "n_valid_train_targets": 406396,
+      "cutoff_time": "2023-09-14T00:11:30"
+    },
+    {
+      "item_id": "IISC00IND__I07",
+      "station": "IISC00IND",
+      "sv": "I07",
+      "n_original": 472313,
+      "n_reindexed_train": 1616568,
+      "n_valid_train_targets": 401466,
+      "cutoff_time": "2023-09-13T07:26:30"
+    },
+    {
+      "item_id": "IISC00IND__I09",
+      "station": "IISC00IND",
+      "sv": "I09",
+      "n_original": 477950,
+      "n_reindexed_train": 1618506,
+      "n_valid_train_targets": 406257,
+      "cutoff_time": "2023-09-13T23:35:30"
+    },
+    {
+      "item_id": "IISC00IND__I10",
+      "station": "IISC00IND",
+      "sv": "I10",
+      "n_original": 197953,
+      "n_reindexed_train": 563462,
+      "n_valid_train_targets": 168260,
+      "cutoff_time": "2024-01-12T15:33:30"
+    },
+    {
+      "item_id": "IISC00IND__I11",
+      "station": "IISC00IND",
+      "sv": "I11",
+      "n_original": 213,
+      "n_reindexed_train": 181,
+      "n_valid_train_targets": 181,
+      "cutoff_time": "2025-03-11T17:23:00"
+    },
+    {
+      "item_id": "JDPR00IND__I02",
+      "station": "JDPR00IND",
+      "sv": "I02",
+      "n_original": 229836,
+      "n_reindexed_train": 1149659,
+      "n_valid_train_targets": 195360,
+      "cutoff_time": "2024-01-08T23:26:00"
+    },
+    {
+      "item_id": "JDPR00IND__I03",
+      "station": "JDPR00IND",
+      "sv": "I03",
+      "n_original": 231695,
+      "n_reindexed_train": 1955180,
+      "n_valid_train_targets": 196940,
+      "cutoff_time": "2024-01-08T21:12:30"
+    },
+    {
+      "item_id": "JDPR00IND__I05",
+      "station": "JDPR00IND",
+      "sv": "I05",
+      "n_original": 60480,
+      "n_reindexed_train": 919804,
+      "n_valid_train_targets": 51408,
+      "cutoff_time": "2024-01-16T04:19:30"
+    },
+    {
+      "item_id": "JDPR00IND__I06",
+      "station": "JDPR00IND",
+      "sv": "I06",
+      "n_original": 229559,
+      "n_reindexed_train": 904306,
+      "n_valid_train_targets": 195125,
+      "cutoff_time": "2024-01-08T23:55:30"
+    },
+    {
+      "item_id": "JDPR00IND__I07",
+      "station": "JDPR00IND",
+      "sv": "I07",
+      "n_original": 9342,
+      "n_reindexed_train": 360589,
+      "n_valid_train_targets": 7940,
+      "cutoff_time": "2023-07-20T01:52:00"
+    },
+    {
+      "item_id": "JDPR00IND__I09",
+      "station": "JDPR00IND",
+      "sv": "I09",
+      "n_original": 229432,
+      "n_reindexed_train": 904330,
+      "n_valid_train_targets": 195017,
+      "cutoff_time": "2024-01-09T00:07:30"
+    },
+    {
+      "item_id": "JDPR00IND__I10",
+      "station": "JDPR00IND",
+      "sv": "I10",
+      "n_original": 103259,
+      "n_reindexed_train": 393396,
+      "n_valid_train_targets": 87770,
+      "cutoff_time": "2024-01-15T14:20:30"
+    },
+    {
+      "item_id": "LCK400IND__I01",
+      "station": "LCK400IND",
+      "sv": "I01",
+      "n_original": 117623,
+      "n_reindexed_train": 1413012,
+      "n_valid_train_targets": 99979,
+      "cutoff_time": "2023-07-04T15:08:30"
+    },
+    {
+      "item_id": "LCK400IND__I02",
+      "station": "LCK400IND",
+      "sv": "I02",
+      "n_original": 443937,
+      "n_reindexed_train": 1620793,
+      "n_valid_train_targets": 377346,
+      "cutoff_time": "2023-09-14T18:39:00"
+    },
+    {
+      "item_id": "LCK400IND__I03",
+      "station": "LCK400IND",
+      "sv": "I03",
+      "n_original": 444398,
+      "n_reindexed_train": 1620765,
+      "n_valid_train_targets": 377738,
+      "cutoff_time": "2023-09-14T18:25:00"
+    },
+    {
+      "item_id": "LCK400IND__I04",
+      "station": "LCK400IND",
+      "sv": "I04",
+      "n_original": 157738,
+      "n_reindexed_train": 828714,
+      "n_valid_train_targets": 134077,
+      "cutoff_time": "2022-12-13T17:59:30"
+    },
+    {
+      "item_id": "LCK400IND__I05",
+      "station": "LCK400IND",
+      "sv": "I05",
+      "n_original": 43904,
+      "n_reindexed_train": 1057262,
+      "n_valid_train_targets": 37318,
+      "cutoff_time": "2023-03-03T02:33:30"
+    },
+    {
+      "item_id": "LCK400IND__I06",
+      "station": "LCK400IND",
+      "sv": "I06",
+      "n_original": 442576,
+      "n_reindexed_train": 1621038,
+      "n_valid_train_targets": 376189,
+      "cutoff_time": "2023-09-14T20:41:30"
+    },
+    {
+      "item_id": "LCK400IND__I07",
+      "station": "LCK400IND",
+      "sv": "I07",
+      "n_original": 78112,
+      "n_reindexed_train": 799116,
+      "n_valid_train_targets": 66395,
+      "cutoff_time": "2022-12-17T21:51:30"
+    },
+    {
+      "item_id": "LCK400IND__I09",
+      "station": "LCK400IND",
+      "sv": "I09",
+      "n_original": 60171,
+      "n_reindexed_train": 51399,
+      "n_valid_train_targets": 51145,
+      "cutoff_time": "2024-01-18T20:22:00"
+    },
+    {
+      "item_id": "LCK400IND__I10",
+      "station": "LCK400IND",
+      "sv": "I10",
+      "n_original": 60237,
+      "n_reindexed_train": 51389,
+      "n_valid_train_targets": 51201,
+      "cutoff_time": "2024-01-18T20:17:00"
+    }
+  ],
+  "methodology": "Notebook-aligned univariate DeepAR. The notebook's 35 engineered features are not DeepAR covariates; the selected DeepAR receives the historical target only.",
+  "selection_note": "DeepAR had the lowest reported RMSE in the supplied O1 notebook, but its evaluation sample count differed from several other models."
+}
